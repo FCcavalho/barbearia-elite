@@ -1,0 +1,138 @@
+body{
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+h1 {
+  color: #00ff88;
+}
+h2{
+  color: #00ccff;
+}
+ul{
+  margin-left: 20px;
+}
+p{
+  font-size: 18px;
+}
+h1{
+  font-size: 40px;
+}
+body {
+  text-align: center;
+}
+ul{
+  list-style-position: inside;
+  padding: 0;
+}
+.container{
+  background-color: #1a1a1a;
+  max-width: 600px;
+  margin: 0px auto;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.6),
+              0px 0px 40px rgba(0, 255, 136,0.15);    
+  text-align: center;
+  transition: 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+  .container:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 30px rgba(0, 255, 136, 0.6);
+  }
+
+body{
+  background: linear-gradient(135deg, #0f0f0f,
+   1a1a1a, #0f0f0f);
+  font-family: `Poppins`, sans-serif
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.btn {
+  background: linear-gradient(45deg, #00ff88, #00cc70);
+  color: black;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 5px 15px rgba(0, 255, 136, 0.4);
+  letter-spacing: 1px;
+}
+.btn:hover{
+  background-color: #00ff88;
+  transform: translateY(-3px);
+  box-shadow: 0px 12px 25px rgba(0, 255, 136, 0.5);
+}
+.left{
+  width: 55%;
+}
+
+.right{
+width: 40%;
+text-align: center;
+}
+.right img{
+  width: 100%;
+  border-radius: 15px;
+}
+.right img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
+}
+.right img{
+  width: 100%;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+.right imag:hover{
+  transform: scale(1.05);
+}
+
+  @media (max-width: 768px) {
+
+    .container{
+      flex-direction: column;
+      text-align: center;
+    }
+    .left{
+      width: 100%;
+    }
+    .right{
+      width: 100%;
+      margin-top: 20px;
+    }
+    h1{
+      font-size: 26px;
+    }
+    button{
+      width: 100%;
+      padding: 12px;
+    }
+  }
+  .btn{
+    display: inline-block;
+    background-color: #00ff66;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3;
+    margin-top: 15px;
+  }
+
+  .btn:hover{
+    background-color: #00cc55;
+    transform: scale(1.05);
+  }
